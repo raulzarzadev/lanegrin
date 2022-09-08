@@ -5,7 +5,7 @@ export interface LayoutProps {
 }
 function Layout({ children }: LayoutProps) {
   return (
-    <div>
+    <div className="prose">
       <Nav />
       <main>{children}</main>
     </div>
