@@ -6,8 +6,10 @@ export class Head extends Component {
     return (
       <NextHead>
         {/* ----  PROJECT CONFIG ---- */}
-
+        {/* 
         <title>{`${PROJECT_INFO.name}`} </title>
+ */}
+        <title>MascotaFood</title>
         <meta name="description" content={PROJECT_INFO.description} />
         <meta name="keywords" content={PROJECT_INFO.keywords()} />
         <link rel="icon" href={PROJECT_INFO?.icons?.head} />

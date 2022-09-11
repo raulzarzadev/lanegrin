@@ -5,7 +5,7 @@ const News = () => {
   return (
     <div>
       <h2>Ultimas noticias</h2>
-      <div className="grid gap-2 grid-flow-col overflow-auto  p-2 shadow-inner max-h-60 ">
+      <div className="grid gap-2 grid-flow-col overflow-auto  p-2 shadow-inner max-h-60  ">
         {posts.map((post) => (
           <div key={post} className="">
             <div className="fb-post " data-href={post}></div>

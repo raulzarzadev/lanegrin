@@ -23,7 +23,8 @@ const Nav = () => {
         </div>
       </div>
       <div className="">
-        <ul className="list-none  grid grid-flow-col place-items-center p-5 py-0 gap-5 max-w-full overflow-auto m-0">
+        {/* <ul className="list-none  grid grid-flow-col place-items-center p-5 py-0 gap-5 max-w-full overflow-auto m-0"> */}
+        <ul className="list-none flex flex-wrap w-full gap-2 p-0 m-0 justify-around text-sm sm:text-md">
           {sections.map(({ id, label }) => (
             <li key={id}>
               <a href={`#${id}`}>{label}</a>

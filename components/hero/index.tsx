@@ -29,31 +29,23 @@ const HeroSlide = ({ src = "", text = "", index = 0, arrLength = 0 }) => {
       <HeroImage src={src} />
       {text && (
         <div
-          className={`absolute w-full text-center bg-gradient-to-l  h-full ${
-            index % 2 === 0
-              ? "from-transparent to-slate-500"
-              : "from-slate-500 to-transparent"
-          } `}
+          className={`absolute w-full text-center  bg-gradient-to-t from-black  h-full  `}
         >
-          <div
-            className={`w-1/2 mx-auto ${
-              index % 2 === 0 ? "text-left" : "text-right"
-            }`}
-          >
-            <h2>{text}</h2>
+          <div className={`w-2/3 mx-auto flex items-end h-full `}>
+            <h3>{text}</h3>
           </div>
         </div>
       )}
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <div className="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
         <a
           href={`#slide${index <= 0 ? arrLength - 1 : index - 1}`}
-          className="btn btn-circle"
+          className="btn btn-circle btn-sm bg-opacity-40 border-opacity-20"
         >
           ❮
         </a>
         <a
           href={`#slide${index >= arrLength - 1 ? 0 : index + 1}`}
-          className="btn btn-circle"
+          className="btn btn-circle btn-sm bg-opacity-40 border-opacity-20"
         >
           ❯
         </a>

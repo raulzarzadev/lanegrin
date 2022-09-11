@@ -76,14 +76,19 @@ Moverse hacia abajo significa que están inseguros, y un movimiento rápido de l
       text: "Bonitas bandanas para mascotas ",
     },
     {
-      src: "/images/bandanas.jpeg",
-      description: "Bandanas para mascotas ",
-      text: "Bonitas bandanas para mascotas ",
+      src: "/images/cargador.jpeg",
+      description: "Llevalo a donde sea, pero seguro ",
+      text: "Llevalo a donde sea pero seguro ",
     },
     {
       src: "/images/mascota.jpeg",
       description: "Mascotafood ",
       text: "Lo mejor para tu mejor amigo",
+    },
+    {
+      src: "/images/alimentos_1.jpeg",
+      description: "Mascotafood ",
+      text: "Variedad de alimentos, marcas y presentaciones",
     },
   ],
 
@@ -97,20 +102,32 @@ Moverse hacia abajo significa que están inseguros, y un movimiento rápido de l
       url: "/images/alimentos_1.jpeg",
     },
     {
-      title: "Alimento",
+      title: "Alimento para gato",
       url: "/images/alimentos_2.jpeg",
     },
     {
-      title: "Alimento",
+      title: "Alimento a granel",
       url: "/images/alimentos_3.jpeg",
     },
     {
-      title: "Alimento",
+      title: "Alimentos varios",
       url: "/images/alimentos_4.jpeg",
     },
     {
       title: "Juegtes",
       url: "/images/articulos.jpeg",
+    },
+    {
+      title: "Camas",
+      url: "/images/camas.jpeg",
+    },
+    {
+      title: "trasportador",
+      url: "/images/cargador.jpeg",
+    },
+    {
+      title: "Bandanas",
+      url: "/images/bandanas_dogfriend.jpeg",
     },
   ],
 };

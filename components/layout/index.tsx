@@ -10,7 +10,7 @@ export interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <div className="relative font-display w-full prose  max-w-none">
+    <div className="relative font-display w-full prose  max-w-none overflow-y-auto scroll-smooth">
       <Head />
       <Nav />
 
