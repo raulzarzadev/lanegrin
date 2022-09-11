@@ -1,22 +1,29 @@
+import AboutUs from "@components/aboutUs";
+import Faqs from "@components/faqs";
+import Galery from "@components/galery";
+import Hero from "@components/hero";
+import News from "@components/News";
 import type { NextPage } from "next";
-import { useDispatch, useSelector } from "react-redux";
 import Layout from "../components/layout";
-import { selectAuthState, setAuthState } from "../store/authSlice";
-import {
-  decrement,
-  increment,
-  incrementAsyncByAmount,
-  selectCountState,
-} from "../store/couterSlice";
+import SECTIONS from "../CONSTANTS/SECTIONS";
 
 const Home: NextPage = () => {
-  const dispatch = useDispatch();
-  const authState = useSelector(selectAuthState);
-  const counterValue = useSelector(selectCountState);
-
+  const { hero, aboutUs, news, faqs, galery, contacts } = SECTIONS;
+  const sections = [
+    { id: hero.id, component: <Hero /> },
+    { id: aboutUs.id, component: <AboutUs /> },
+    { id: news.id, component: <News /> },
+    { id: faqs.id, component: <Faqs /> },
+    { id: galery.id, component: <Galery /> },
+    // { id: contacts.id, component: <Contacts /> },
+  ];
   return (
     <Layout>
-      <h1>Cremeria Pirules</h1>
+      {sections.map(({ id, component }) => (
+        <section id={id} key={id} className="scroll-mt-28">
+          {component}
+        </section>
+      ))}
     </Layout>
   );
 };

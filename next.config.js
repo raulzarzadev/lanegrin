@@ -6,6 +6,9 @@ const withPWA = require("next-pwa")({
 
 const nextConfig = withPWA({
   reactStrictMode: true,
+  images: {
+    domains: ["placeimg.com"],
+  },
   // put other next js options here
 });
 
