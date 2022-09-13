@@ -6,19 +6,27 @@ const Faqs = () => {
     <div>
       <h2>Preguntas Frecuentas</h2>
       <div>
-        {faqs.map(({ question, response }) => (
-          <div key={question}>
-            <h4>{question}</h4>
-            <p>{response}</p>
+        {faqs.map(({ question, response }, i) => (
+          <div tabIndex={i} key={question} className="collapse group">
+            <div className="collapse-title bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
+              {question}
+            </div>
+            <div className="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
+              <p>{response}</p>
+            </div>
           </div>
         ))}
       </div>
       <h2>Hechos curiosos de tus mascotas</h2>
       <div>
-        {facts.map(({ title, content }) => (
-          <div key={title}>
-            <h4>{title}</h4>
-            <p>{content}</p>
+        {facts.map(({ title, content }, i) => (
+          <div tabIndex={i} key={title} className="collapse group">
+            <div className="collapse-title bg-secondary text-secondary-content group-focus:bg-primary group-focus:text-primary-content">
+              {title}
+            </div>
+            <div className="collapse-content bg-secondary text-secondary-content group-focus:bg-primary group-focus:text-primary-content">
+              <p>{content}</p>
+            </div>
           </div>
         ))}
       </div>

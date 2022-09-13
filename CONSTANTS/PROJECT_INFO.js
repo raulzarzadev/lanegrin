@@ -1,6 +1,8 @@
 const PROJECT_INFO = {
-  name: "MascotaFood",
+  name: "Mascota Food",
   shortName: "MascotaFood",
+  address:
+    "Blvd. Cuautitlan Izalli Mz. 1 Lt. 3, Hacienda de la Luz, Atizapán de Zaragoza, Estado de México CP 52929",
   aboutUs: `
   Somos una tienda dedica a la venta de alimento premium para perros y gatos, 
   premios, accesorios y juguetes nacionales e importados 
@@ -9,7 +11,7 @@ const PROJECT_INFO = {
   Nuestra misión es satisfacer tus necesidades y las de tu mascota, 
   ofreciendo una amplia variedad de productos​ ​con altos
   estándares de calidad, nacionales y de importación, 
-  todo esto a precio justo y poniendolo al alcance de todos`,
+  todo esto a precio justo y poniéndolo al alcance de todos`,
 
   description: "Lorem impsum ",
   keywordsArray: [
@@ -22,20 +24,22 @@ const PROJECT_INFO = {
     return this?.keywordsArray?.join(", ");
   },
   icons: {
-    head: "/images/mascota.jpeg",
-    nav: "/images/mascota.jpeg",
+    head: "/icons/LogoMascotaFoodSigno.gif",
+    nav: "/icons/LogoMascotaFood.gif",
   },
   logos: {},
   images: {},
+
   contacts: {
-    email: "email@htomail",
-    mobile: "525512345678",
+    email: "email@mascotafood.com",
+    mobile: "5554941191",
   },
   socialMedia: {
     instagram: "",
-    facebook: "",
+    facebook: "/MascotaFoodVillas",
     twitter: "",
-    whatsApp: "5215543374016",
+    whatsApp: "5215554941191",
+    telegram: "/macotafood",
   },
   news: {
     latestPosts: [
@@ -70,6 +74,11 @@ Moverse hacia abajo significa que están inseguros, y un movimiento rápido de l
   ],
 
   heroImages: [
+    {
+      src: "/images/mascota_a_dom.jpeg",
+      description: "Servicio a domicilio ",
+      text: "Servicio a domicilio, gratis! ",
+    },
     {
       src: "/images/bandanas.jpeg",
       description: "Bandanas para mascotas ",

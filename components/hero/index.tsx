@@ -4,7 +4,7 @@ const images = PROJECT_INFO.heroImages;
 
 const Hero = () => {
   return (
-    <div className="carousel w-full ">
+    <div className="carousel w-full  ">
       {images.map(({ src, text }, i, arr) => {
         return (
           <HeroSlide
@@ -22,10 +22,7 @@ const Hero = () => {
 
 const HeroSlide = ({ src = "", text = "", index = 0, arrLength = 0 }) => {
   return (
-    <div
-      id={`slide${index}`}
-      className="carousel-item relative w-full scroll-mt-28 "
-    >
+    <div id={`slide${index}`} className="carousel-item relative w-full ">
       <HeroImage src={src} />
       {text && (
         <div

@@ -9,7 +9,7 @@ export class Head extends Component {
         {/* 
         <title>{`${PROJECT_INFO.name}`} </title>
  */}
-        <title>MascotaFood</title>
+        <title>{PROJECT_INFO.name.toUpperCase()}</title>
         <meta name="description" content={PROJECT_INFO.description} />
         <meta name="keywords" content={PROJECT_INFO.keywords()} />
         <link rel="icon" href={PROJECT_INFO?.icons?.head} />

@@ -1,16 +1,17 @@
 import PROJECT_INFO from "CONSTANTS/PROJECT_INFO";
 import SECTIONS from "CONSTANTS/SECTIONS";
 import Image from "next/image";
-import React, { Component } from "react";
+import React from "react";
+import { PageSection } from "pages";
 
-const Nav = () => {
-  const { hero, aboutUs, news, contacts, faqs, galery } = SECTIONS;
-  const sections = [hero, aboutUs, news, faqs, galery];
+const Nav = ({ sections }: { sections: PageSection[] }) => {
+  // const { hero, aboutUs, news, contacts, faqs, galery } = SECTIONS;
+  // const sections = [hero, galery, aboutUs, news, faqs];
 
   return (
-    <nav className=" sticky top-0  z-20 bg-base-100  ">
+    <nav className="sticky top-0 mb-2 shadow z-20 bg-base-100 ">
       <div className="flex  w-full items-center">
-        <div className=" w-12 relative aspect-video">
+        <div className=" w-20 relative aspect-video ">
           <Image
             src={PROJECT_INFO.icons.nav}
             layout="fill"
@@ -19,7 +20,7 @@ const Nav = () => {
           />
         </div>
         <div className="">
-          <h4 className="m-0">{PROJECT_INFO.name}</h4>
+          <h4 className="m-0 mx-4">{PROJECT_INFO.name}</h4>
         </div>
       </div>
       <div className="">

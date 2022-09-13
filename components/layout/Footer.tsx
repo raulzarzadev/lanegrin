@@ -9,7 +9,7 @@ const Footer = () => {
   } = PROJECT_INFO;
 
   return (
-    <footer className="w-full bg-base-300 min-h-40 text-xs">
+    <footer className="w-full bg-base-300 min-h-40 text-xs p-2">
       <div className="grid md:grid-flow-col ">
         <div>
           <h3>Acerca de nosotros</h3>
@@ -20,18 +20,21 @@ const Footer = () => {
           <p>{mission}</p>
         </div>
         <div>
-          <h3>Contactanos </h3>
-          <div className="grid">
-            <h4>Contacto directo</h4>
+          <h3>Contactos: </h3>
+          <div className="grid place-content-center gap-2">
             <a href={`mailto:${contacts.email}`}>{contacts?.email}</a>
             <a href={`tel:${contacts.mobile}`}>{contacts?.mobile}</a>
           </div>
-          <div>
-            <h4>o nuestras redes sociales</h4>
-            {facebook && <a href={facebook}>Facebook</a>}
-            {instagram && <a href={instagram}>Instagram</a>}
-            {whatsApp && <a href={whatsApp}>whatsApp</a>}
-            {twitter && <a href={twitter}>twitter</a>}
+          <h3>Encuentranos en:</h3>
+          <div className="grid place-content-center gap-2">
+            {facebook && (
+              <a href={`https://facebook.com/${facebook}`}>Facebook</a>
+            )}
+            {instagram && (
+              <a href={`https://instagram.com/${instagram}`}>Instagram</a>
+            )}
+            {whatsApp && <a href={`https://ws.me/${whatsApp}`}>whatsApp</a>}
+            {twitter && <a href={`https://twitter.com/${twitter}`}>twitter</a>}
           </div>
         </div>
       </div>

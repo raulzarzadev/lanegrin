@@ -1,3 +1,4 @@
+import { PageSection } from "pages";
 import React from "react";
 import Footer from "./Footer";
 
@@ -6,15 +7,15 @@ import Nav from "./nav";
 
 export interface LayoutProps {
   children: React.ReactNode;
+  sections: PageSection[];
 }
 
-function Layout({ children }: LayoutProps) {
+function Layout({ children, sections }: LayoutProps) {
   return (
-    <div className="relative font-display w-full prose  max-w-none overflow-y-auto scroll-smooth">
+    <div className="relative font-display w-full prose  max-w-none ">
       <Head />
-      <Nav />
-
-      <main className="max-w-xl mx-auto  ">{children}</main>
+      <Nav sections={sections} />
+      <main className="max-w-xl mx-auto p-1 ">{children}</main>
       <Footer />
     </div>
   );

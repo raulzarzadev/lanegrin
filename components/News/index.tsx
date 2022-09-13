@@ -1,18 +1,20 @@
 import PROJECT_INFO from "CONSTANTS/PROJECT_INFO";
 
 const News = () => {
-  const posts = PROJECT_INFO.news.latestPosts;
+  const posts = PROJECT_INFO.news.latestPosts || [];
+  const post = posts[0];
+
   return (
     <div>
       <h2>Ultimas noticias</h2>
       <div className="grid gap-2 grid-flow-col overflow-auto  p-2 shadow-inner max-h-60  ">
-        {posts.map((post) => (
+        {/* {posts.map((post) => (
           <div key={post} className="">
             <div className="fb-post " data-href={post}></div>
-          </div>
-        ))}
+            </div>
+          ))} */}
+        <div className="fb-post " data-href={post}></div>
       </div>
-
       <script
         async
         defer
@@ -21,4 +23,5 @@ const News = () => {
     </div>
   );
 };
+
 export default News;
