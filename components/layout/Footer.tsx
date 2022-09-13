@@ -39,13 +39,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-20">
-        <div className="fixed bottom-0 right-2 z-10 mt-10">
+        {/* <div className="fixed bottom-0 right-2 z-10 mt-10">
           <iframe
             className="mx-auto h-10"
-            src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMascotaFoodVillas%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId=814568616224774"
+            src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcremeria.pirules%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId=814568616224774"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

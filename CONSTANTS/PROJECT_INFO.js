@@ -1,143 +1,125 @@
 const PROJECT_INFO = {
-  name: "Mascota Food",
-  shortName: "MascotaFood",
+  name: "Cremeria Pirules",
+  shortName: "Pirules",
   address:
     "Blvd. Cuautitlan Izalli Mz. 1 Lt. 3, Hacienda de la Luz, Atizapán de Zaragoza, Estado de México CP 52929",
   aboutUs: `
-  Somos una tienda dedica a la venta de alimento premium para perros y gatos, 
-  premios, accesorios y juguetes nacionales e importados 
-  para mascotas en el Estado de México`,
-  mission: `
-  Nuestra misión es satisfacer tus necesidades y las de tu mascota, 
-  ofreciendo una amplia variedad de productos​ ​con altos
-  estándares de calidad, nacionales y de importación, 
-  todo esto a precio justo y poniéndolo al alcance de todos`,
+  Somos una tienda dedica a la venta de productos comestibles de alta calidad. Especialmente cremeria, salchichoneria y carnes frias. Vinos y licores y articulos varios `,
+  mission: ``,
 
   description:
-    " Somos una tienda dedica a la venta de alimento premium para perros y gatos,  premios, accesorios y juguetes nacionales e importados para mascotas en el Estado de México ",
+    " Somos una tienda dedica a la venta de productos comestibles de alta calidad. Especialmente cremeria, salchichoneria y carnes frias. Vinos y licores y articulos varios ",
   keywordsArray: [
-    "Mascotas",
+    "Cremeria",
     "Tienda de conveniencia",
-    "Perros Gatos ",
-    "Jugetes para parros",
+    "Jamón ",
+    "Carnes frias",
   ],
   keywords: function () {
     return this?.keywordsArray?.join(", ");
   },
   icons: {
-    head: "/icons/LogoMascotaFoodSigno.gif",
-    nav: "/icons/LogoMascotaFood.gif",
+    head: "/icons/logotipo.ico",
+    nav: "/icons/logotipo.ico",
   },
   logos: {},
   images: {},
 
   contacts: {
-    email: "email@mascotafood.com",
-    mobile: "525554941191",
+    email: "email@cremeriapirules.com",
+    mobile: "525562095024",
   },
   socialMedia: {
     instagram: "",
-    facebook: "/MascotaFoodVillas",
+    facebook: "/pirules.cremeria",
     twitter: "",
-    whatsApp: "5215554941191",
-    telegram: "/macotafood",
+    whatsApp: "5215562095024",
+    telegram: "",
   },
   news: {
-    latestPosts: [
-      "https://www.facebook.com/mascotaFoodMX/posts/pfbid025HTv9d3g8LPmgTMayEVvvE2vymPZAjobtie74qvy3zZ12oq9BTsMxPfQWnYWtQfFl",
-      "https://www.facebook.com/mascotaFoodMX/posts/pfbid02khfmnGficebbABr9APwxh6v6TAXKR1C44Vygm2g63GDjNhbUQfFdMQGXr7YdUV1cl",
-      "https://www.facebook.com/100067354591552/videos/375245617863496/",
-    ],
+    latestPosts: [],
   },
   faqs: [
     {
-      question: "¿Tienen alimento para gatos?",
+      question: "¿Qué jamon de pierna tienes?",
       response:
-        "Si!, tenemos varios, para diferentes razas, edades y tamaños, tambien para diversas enfermedades y padecimientos. ",
+        "Tenemos jamon de varias marcas, precios y calidades. Como Food, Chilchota , Efa ademas de otras marcas. Para saber los precios envianos un whatsapp ",
       moreInfoLinks: [
         {
-          title: "Que alimento darle a mi gato",
-          link: "https://linkpara saber que alimento darle a mi gato",
+          title: "Envianos un whatsApp",
+          link: "https://wa.me/5215562095024?text='Hola!, Buenas tardes. Una pregunta ¿Que Jamones de pierna manejas?'",
         },
       ],
       ws_msj:
-        "Hola! Quisera saber mas sobre el alimento para gatos que manejan. ",
+        "Hola!, Buenas tardes. Una pregunta ¿Que Jamones de pierna manejas? ",
     },
   ],
   facts: [
     {
-      title: "El movimiento de la cola tiene su propio lenguaje",
+      title: "¿De qué ingredientes está hecho el jamón?",
       content: `
-  Si tu perro mueve la cola con entusiasmo, significa que está feliz de verte, ¿verdad? No necesariamente. Según Discovery.com, los perros mueven la cola hacia la derecha cuando están felices y hacia la izquierda cuando están asustados.
+      El jamón es uno de los embutidos más populares en el país, forma parte de la dieta del mexicano en preparaciones como sándwiches, tortas, sincronizadas y cientos de platillos más. 
 
-Moverse hacia abajo significa que están inseguros, y un movimiento rápido de la cola acompañado de músculos tensos o pupilas dilatadas puede indicar agresión. Descubre más datos divertidos sobre las colas de los perros y lo que intentan decirte.`,
+      A pesar de ello, el jamón es un alimento cuyo aporte nutricional depende directamente de los ingredientes y procesos con los que se elabora. En Menú te contamos de qué está hecho el jamón y qué componentes debes evitar al comprar este embutido. 
+      De acuerdo a la Norma Oficial Mexicana NOM-158-SCFI-2003, estos son los tipos de jamón en el mercado cuya clasificación se otorga de acuerdo a sus ingredientes, misma que debe ser visible en el empaque. 
+
+      Jamón o jamón de pierna: Elaborado exclusivamente con carne de la pierna trasera del cerdo.
+      
+      Jamón de cerdo y pavo: Elaborado con un mínimo del 55% de carne de cerdo y el resto con carne de pavo.
+      
+      Jamón de pavo: Elaborado exclusivamente con carne de muslo de pavo.
+      
+      Jamón de pavo y cerdo: Elaborado con un mínimo del 55% de carne de pavo y el resto con carne de cerdo.
+`,
+      moreInfoLinks: [
+        {
+          title: "Fuente",
+          link: "https://www.eluniversal.com.mx/menu/de-que-ingredientes-esta-hecho-el-jamon",
+        },
+      ],
     },
   ],
 
   heroImages: [
     {
-      src: "/images/mascota_a_dom.jpeg",
+      src: "/images/fiestas_mex.jpeg",
+      description: "Mascotafood ",
+      text: "Todo para tus fiestas. A excelente precio",
+    },
+    {
+      src: "/images/pirules_a_dom.jpeg",
       description: "Servicio a domicilio ",
       text: "Servicio a domicilio, gratis! ",
     },
     {
-      src: "/images/bandanas.jpeg",
-      description: "Bandanas para mascotas ",
-      text: "Bonitas bandanas para mascotas ",
+      src: "/images/logotipo.jpeg",
+      description: "Cremeria pirules ",
+      text: "Cremeria Pirules",
     },
     {
-      src: "/images/cargador.jpeg",
-      description: "Llevalo a donde sea, pero seguro ",
-      text: "Llevalo a donde sea pero seguro ",
-    },
-    {
-      src: "/images/mascota.jpeg",
-      description: "Mascotafood ",
-      text: "Lo mejor para tu mejor amigo",
-    },
-    {
-      src: "/images/alimentos_1.jpeg",
-      description: "Mascotafood ",
-      text: "Variedad de alimentos, marcas y presentaciones",
+      src: "/images/pirules_abierto.jpeg",
+      description: " ",
+      text: "Abierto de 9:00 a 9:00 ",
     },
   ],
 
   galery: [
     {
-      title: "Bandanas",
-      url: "/images/bandanas.jpeg",
+      title: "Fiestas Mexicanas",
+      url: "/images/fiestas_mex.jpeg",
     },
     {
-      title: "Alimento",
-      url: "/images/alimentos_1.jpeg",
+      title: "Cremeria Pirules",
+      url: "/images/logotipo.jpeg",
+    },
+
+    {
+      title: "Servicio a domicilio",
+      url: "/images/pirules_a_dom.jpeg",
     },
     {
-      title: "Alimento para gato",
-      url: "/images/alimentos_2.jpeg",
-    },
-    {
-      title: "Alimento a granel",
-      url: "/images/alimentos_3.jpeg",
-    },
-    {
-      title: "Alimentos varios",
-      url: "/images/alimentos_4.jpeg",
-    },
-    {
-      title: "Juegtes",
-      url: "/images/articulos.jpeg",
-    },
-    {
-      title: "Camas",
-      url: "/images/camas.jpeg",
-    },
-    {
-      title: "trasportador",
-      url: "/images/cargador.jpeg",
-    },
-    {
-      title: "Bandanas",
-      url: "/images/bandanas_dogfriend.jpeg",
+      title: "Abierto de 9:00 a 9:00",
+      url: "/images/pirules_abierto.jpeg",
     },
   ],
 };

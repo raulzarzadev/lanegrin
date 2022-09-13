@@ -13,10 +13,10 @@ const Galery = () => {
               key={url}
               className="relative flex justify-center items-center w-full aspect-square"
             >
-              <span className=" absolute z-10 bottom-0 from-black to-transparent bg-gradient-to-t w-full text-center  ">
+              <Image src={url} objectFit="cover" layout="fill" alt={title} />
+              <span className=" absolute bottom-0 from-black to-transparent bg-gradient-to-t w-full text-center text-white ">
                 {title}
               </span>
-              <Image src={url} objectFit="cover" layout="fill" alt={title} />
             </div>
           );
         })}

@@ -52,7 +52,7 @@ const Contacts = () => {
       <h2>Tienda física</h2>
       <div className="grid">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.5894897070852!2d-99.22786088565186!3d19.602080186788243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21d20333d3459%3A0xad8386b533d886f4!2sMASCOTA-FOOD!5e0!3m2!1sen!2sus!4v1663104220031!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.893198449211!2d-99.22099958602544!3d19.54619828681982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21d131bd6447f%3A0xc56bbc339c2653f6!2sCremeria%20y%20Abarrotes%20Pirules!5e0!3m2!1ses!2smx!4v1663111870612!5m2!1ses!2smx"
           // width=""
           // height="450"
           className="h-96 w-full max-w-xl mx-auto"
