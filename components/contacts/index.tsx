@@ -19,13 +19,13 @@ const Contacts = () => {
     <div>
       <h2>Contactos</h2>
       <div className="grid">
-        <span>
+        <span className="grid">
           <strong className="">Por correo:</strong>
           <a href={`mailto:${email}`} target="__blank">
             {email}
           </a>
         </span>
-        <span>
+        <span className="grid">
           <strong className="">Por Whatsapp:</strong>
           <a href={`https://wa.me/${whatsApp}`} target="__blank">
             {whatsApp.slice(3)}
@@ -36,10 +36,10 @@ const Contacts = () => {
       <div className="grid">
         {socialMedia.map(({ label, url, endPoint }) => {
           return (
-            <span key={label}>
+            <span key={label} className="grid text-end">
               {endPoint && (
                 <>
-                  <strong className="">{label}:</strong>
+                  <strong className="">{label}: </strong>
                   <a href={`https://${url}`} target="__blank">
                     {url}
                   </a>
@@ -53,8 +53,9 @@ const Contacts = () => {
       <div className="grid">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.5894897070852!2d-99.22786088565186!3d19.602080186788243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21d20333d3459%3A0xad8386b533d886f4!2sMASCOTA-FOOD!5e0!3m2!1sen!2sus!4v1663104220031!5m2!1sen!2sus"
-          width="600"
-          height="450"
+          // width=""
+          // height="450"
+          className="h-96 w-full max-w-xl mx-auto"
           //style="border:0;"
           //allowFullScreen=""
           loading="lazy"
