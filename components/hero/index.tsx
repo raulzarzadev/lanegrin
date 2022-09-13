@@ -26,10 +26,10 @@ const HeroSlide = ({ src = "", text = "", index = 0, arrLength = 0 }) => {
       <HeroImage src={src} />
       {text && (
         <div
-          className={`absolute w-full text-center  bg-gradient-to-t from-black  h-full  `}
+          className={`absolute  w-full text-center  bg-gradient-to-t from-pink-300   h-full  `}
         >
           <div className={`w-2/3 mx-auto flex items-end h-full `}>
-            <h3>{text}</h3>
+            <h3 className="text-white ">{text}</h3>
           </div>
         </div>
       )}
