@@ -13,7 +13,8 @@ const PROJECT_INFO = {
   estándares de calidad, nacionales y de importación, 
   todo esto a precio justo y poniéndolo al alcance de todos`,
 
-  description: "Lorem impsum ",
+  description:
+    " Somos una tienda dedica a la venta de alimento premium para perros y gatos,  premios, accesorios y juguetes nacionales e importados para mascotas en el Estado de México ",
   keywordsArray: [
     "Mascotas",
     "Tienda de conveniencia",
