@@ -32,7 +32,7 @@ const PROJECT_INFO = {
 
   contacts: {
     email: "email@mascotafood.com",
-    mobile: "5554941191",
+    mobile: "525554941191",
   },
   socialMedia: {
     instagram: "",

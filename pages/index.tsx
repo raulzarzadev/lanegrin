@@ -1,11 +1,11 @@
 import AboutUs from "@components/aboutUs";
+import Contacts from "@components/contacts";
 import Faqs from "@components/faqs";
 import Galery from "@components/galery";
 import Hero from "@components/hero";
 import News from "@components/News";
 import type { NextPage } from "next";
 import Layout from "../components/layout";
-import Contacts from "components/contacts";
 import SECTIONS from "../CONSTANTS/SECTIONS";
 
 export interface PageSection {
@@ -24,6 +24,7 @@ const Home: NextPage = () => {
     { id: faqs.id, label: faqs.label, component: <Faqs /> },
     { id: contacts.id, label: contacts.label, component: <Contacts /> },
   ];
+
   return (
     <Layout sections={sections}>
       {sections.map(({ id, component }) => (

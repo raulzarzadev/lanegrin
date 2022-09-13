@@ -33,7 +33,7 @@ const Footer = () => {
             {instagram && (
               <a href={`https://instagram.com/${instagram}`}>Instagram</a>
             )}
-            {whatsApp && <a href={`https://ws.me/${whatsApp}`}>whatsApp</a>}
+            {whatsApp && <a href={`https://wa.me/${whatsApp}`}>whatsApp</a>}
             {twitter && <a href={`https://twitter.com/${twitter}`}>twitter</a>}
           </div>
         </div>
