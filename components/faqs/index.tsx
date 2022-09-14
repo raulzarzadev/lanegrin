@@ -11,7 +11,7 @@ const Faqs = () => {
             <div className="collapse-title bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
               {question}
             </div>
-            <div className="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
+            <div className="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-conten whitespace-pre-line">
               <p>{response}</p>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Faqs = () => {
             <div className="collapse-title bg-secondary text-secondary-content group-focus:bg-primary group-focus:text-primary-content">
               {title}
             </div>
-            <div className="collapse-content bg-secondary text-secondary-content group-focus:bg-primary group-focus:text-primary-content">
+            <div className="collapse-content bg-secondary text-secondary-content group-focus:bg-primary group-focus:text-primary-content whitespace-pre-line">
               <p>{content}</p>
             </div>
           </div>
