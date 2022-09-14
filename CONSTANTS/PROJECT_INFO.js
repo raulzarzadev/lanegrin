@@ -2,7 +2,7 @@ const PROJECT_INFO = {
   name: "Cremeria Pirules",
   shortName: "Pirules",
   address:
-    "Blvd. Cuautitlan Izalli Mz. 1 Lt. 3, Hacienda de la Luz, Atizapán de Zaragoza, Estado de México CP 52929",
+    "P.º de Las Villas 59-Local 18 y 19, Villas de la Hacienda, 52929 Cd López Mateos, Méx.",
   aboutUs: `
   Somos una tienda dedica a la venta de productos comestibles de alta calidad. Especialmente cremeria, salchichoneria y carnes frias. Vinos y licores y articulos varios `,
   mission: ``,
@@ -26,14 +26,16 @@ const PROJECT_INFO = {
   images: {},
 
   contacts: {
-    email: "email@cremeriapirules.com",
-    mobile: "525562095024",
+    email: "email@lanegrin.com",
+    mobile: "525548522575",
+    embedLocation:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.701290092043!2d-99.23197268255615!3d19.597294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21dcbc8b44213%3A0xa1f9a23f423bd129!2sCremeria%20La%20negrin!5e0!3m2!1sen!2smx!4v1663173397808!5m2!1sen!2smx",
   },
   socialMedia: {
     instagram: "",
-    facebook: "/pirules.cremeria",
+    facebook: "/cremeria.negrin",
     twitter: "",
-    whatsApp: "5215562095024",
+    whatsApp: "5215548522575",
     telegram: "",
   },
   news: {
@@ -48,7 +50,7 @@ const PROJECT_INFO = {
       moreInfoLinks: [
         {
           title: "Envianos un whatsApp",
-          link: "https://wa.me/5215562095024?text='Hola!, Buenas tardes. Una pregunta ¿Que Jamones de pierna manejas?'",
+          link: "https://wa.me/5215548522575?text='Hola!, Buenas tardes. Una pregunta ¿Que Jamones de pierna manejas?'",
         },
       ],
       ws_msj:
@@ -83,22 +85,22 @@ const PROJECT_INFO = {
 
   heroImages: [
     {
-      src: "/images/fiestas_mex.jpeg",
-      description: "Mascotafood ",
-      text: "Todo para tus fiestas. A excelente precio",
+      src: "/images/contratando.jpeg",
+      description: "contratando ",
+      text: "Trae tu solicitud",
     },
     {
-      src: "/images/pirules_a_dom.jpeg",
+      src: "/images/negrin_a_dom.jpeg",
       description: "Servicio a domicilio ",
       text: "Servicio a domicilio, gratis! ",
     },
     {
-      src: "/images/logotipo.jpeg",
+      src: "/images/pan.jpeg",
       description: "Cremeria pirules ",
       text: "Cremeria Pirules",
     },
     {
-      src: "/images/pirules_abierto.jpeg",
+      src: "/images/logo_negrin.png",
       description: " ",
       text: "Abierto de 9:00 a 9:00 ",
     },
@@ -106,21 +108,21 @@ const PROJECT_INFO = {
 
   galery: [
     {
-      title: "Fiestas Mexicanas",
-      url: "/images/fiestas_mex.jpeg",
+      title: "Estamos contratando",
+      url: "/images/contratando.jpeg",
     },
     {
-      title: "Cremeria Pirules",
-      url: "/images/logotipo.jpeg",
+      title: "Dulces",
+      url: "/images/dulces.jpeg",
     },
 
     {
       title: "Servicio a domicilio",
-      url: "/images/pirules_a_dom.jpeg",
+      url: "/images/negrin_a_dom.jpeg",
     },
     {
       title: "Abierto de 9:00 a 9:00",
-      url: "/images/pirules_abierto.jpeg",
+      url: "/images/logo_negrin.png",
     },
   ],
 };
