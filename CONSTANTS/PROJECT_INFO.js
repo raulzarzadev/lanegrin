@@ -39,11 +39,12 @@ const PROJECT_INFO = {
   news: {
     latestPosts: [],
   },
+
   faqs: [
     {
       question: "¿Qué jamon de pierna tienes?",
       response:
-        "Tenemos jamon de varias marcas, precios y calidades. Como Food, Chilchota , Efa ademas de otras marcas. Para saber los precios envianos un whatsapp ",
+        "Tenemos xjamon de varias marcas, precios y calidades. Como Food, Chilchota , Efa ademas de otras marcas. Para saber los precios envianos un whatsapp ",
       moreInfoLinks: [
         {
           title: "Envianos un whatsApp",

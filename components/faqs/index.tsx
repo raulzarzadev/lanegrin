@@ -17,7 +17,7 @@ const Faqs = () => {
           </div>
         ))}
       </div>
-      <h2>Hechos curiosos de tus mascotas</h2>
+      <h2>Hechos curiosos</h2>
       <div>
         {facts.map(({ title, content }, i) => (
           <div tabIndex={i} key={title} className="collapse group">
