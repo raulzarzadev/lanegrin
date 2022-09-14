@@ -1,6 +1,6 @@
 const PROJECT_INFO = {
-  name: "Cremeria Pirules",
-  shortName: "Pirules",
+  name: "La negrin",
+  shortName: "Negrin",
   address:
     "P.º de Las Villas 59-Local 18 y 19, Villas de la Hacienda, 52929 Cd López Mateos, Méx.",
   aboutUs: `
